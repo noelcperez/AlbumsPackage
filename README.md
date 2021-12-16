@@ -1,3 +1,3 @@
 # Albums
 
-A description of this package.
+Playing with Swift Package Manager.
