@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import SPM
+@testable import Albums
 
 final class NetworkDataHandlerTestCase : XCTestCase {
   

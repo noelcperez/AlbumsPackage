@@ -7,19 +7,19 @@
 
 import Foundation
 
-struct NetworkDataHandler {
+public struct NetworkDataHandler {
   
 }
 
 extension NetworkDataHandler {
-    struct Error: Swift.Error {
-        enum Code {
+    public struct Error: Swift.Error {
+        public enum Code {
             case statusCodeError
         }
-        let code: Self.Code
-        let underlying: Swift.Error?
+        public let code: Self.Code
+        public let underlying: Swift.Error?
         
-        init(
+        public init(
           _ code: Self.Code,
           underlying: Swift.Error? = nil
         ) {
@@ -30,7 +30,7 @@ extension NetworkDataHandler {
 }
 
 extension NetworkDataHandler: NetworkJSONHandlerDataHandler {
-    static func data(
+    public static func data(
         with data: Data,
         response: URLResponse
     ) throws -> Data {

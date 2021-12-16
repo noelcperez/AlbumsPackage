@@ -1,5 +1,5 @@
 //  NetworkJSONHandlerTests.swift
-@testable import SPM
+@testable import Albums
 import XCTest
 
 final class NetworkJSONHandlerTestCase : XCTestCase {
